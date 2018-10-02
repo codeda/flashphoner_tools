@@ -1,0 +1,46 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "@codeda/flashphoner",
+  "version": "0.0.1",
+  "description": "Flashphoner implementation for Angular",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeda/flashphoner_tools.git"
+  },
+  "scripts": {
+    "build": "ng-packagr -p package.json"
+  },
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "peerDependencies": {
+    "@angular/core": ">=6.0.0 <7.0.0"
+  },
+  "keywords": [
+    "flashphoner",
+    "streaming",
+    "angular"
+  ],
+  "author": {
+    "name": "Ivan Gemba",
+    "email": "gembaivan@gmail.com",
+    "url": "https://github.com/looffee"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@angular/compiler": "^6.1.9",
+    "@angular/compiler-cli": "^6.1.9",
+    "@angular/core": "^6.1.9",
+    "ng-packagr": "^4.2.0",
+    "rxjs": "^6.3.3",
+    "tslib": "^1.9.3",
+    "typescript": "^2.9.2"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/index.ts"
+    },
+    "dest": "dist"
+  }
+}

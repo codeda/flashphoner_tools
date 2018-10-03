@@ -20,7 +20,6 @@ import {
   Observable,
   Observer
 } from 'rxjs';
-// import 'flashphoner';
 
 declare const Flashphoner: FlashphonerI;
 
@@ -119,7 +118,7 @@ export class FlashphonerService {
     //   Browser.isSafariWebRTC() ||
     //   Flashphoner.getMediaProviders()[0] === 'MSE'
     // ) {
-    //   Flashphoner.playFirstVideo(config.display);
+    //   Flashphoner.playFirstVideo(options.display);
     // }
 
     return Observable.create((observer: Observer<Stream>) => {

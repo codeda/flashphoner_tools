@@ -14,7 +14,7 @@ export interface Flashphoner {
   getSession(id: string): Session;
   getSessions(): Array<Session>;
   playFirstSound(noise: boolean): void;
-  playFirstVideo(): void;
+  playFirstVideo(display: HTMLElement): void;
   releaseLocalMedia(display: HTMLElement, mediaProvider?: string): boolean;
 
 
